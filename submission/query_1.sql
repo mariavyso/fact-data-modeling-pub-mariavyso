@@ -1,4 +1,5 @@
 -- query to de-duplicate the nba_game_details table
+
 WITH
     deduped AS (
         -- CTE to add a row number to each record partitioned by game_id, team_id, and player_id
